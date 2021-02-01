@@ -28,8 +28,10 @@ public class BatchRunDetailsEntity {
 	@Column(name = "BATCH_NAME ")
 	private String batchName;
 
+
 	@Column(name = "BATCH_RUN_STATUS")
 	private String batchRunStatus;
+
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@UpdateTimestamp
